@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav img
+{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+nav
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin:0 auto;
+   width: 80%;
+   margin-top: 10px;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.Signup{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 32px;
+    width: 100px;
+    margin-left: 1px;
+}
+.Signup:hover{
+    text-decoration: underline;
+}
+nav ul li:hover{
+    color: orangered;
+    text-decoration: none;
+    transform: scale(1.0);
+}
+.hero
+{
+    font-size: 100px;
+    color: black;
+    margin-left: 68px;
+}
+.pro{
+    width: 24px;
+    background-color:#d11e63;
+    border: 0;
+    border-radius: 18px;
+    padding: 10px;
+    width: 40px;
+}
+.partners{
+    width: 68px;
+    position: relative;
+    top:80px;
+    margin-left: -68px;
+    margin-top: 44px;
+}
+.gap1{
+    margin-top: -40px;
+    margin-left: -20px;
+    padding: 48px;
+    justify-content: center;
+}
+h1{
+    color: rgb(216, 69, 125);   
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header1,p{
+    font-size: large;
+}
